@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejercicio</title>
+</head>
+<body>
+    <label for="procesador">Procesador:</label>
+<select name="procesador" id="procesador">
+  <option value="400">Intel I3 - $400</option>
+  <option value="600">Intel I5 - $600</option>
+  <option value="800">Intel I7 - $800</option>
+</select>
+
+<label for="monitor">Monitor:</label>
+<select name="monitor" id="monitor">
+  <option value="250">Samsung 20' - $250</option>
+  <option value="350">Samsung 22' - $350</option>
+  <option value="550">Samsung 26' - $550</option>
+</select>
+
+<label for="disco-duro">Disco Duro:</label>
+<select name="disco-duro" id="disco-duro">
+  <option value="300">500 Gb - $300</option>
+  <option value="440">1 Tb - $440</option>
+  <option value="500">3 Tb - $500</option>
+</select>
+
+<button onclick="calcularPresupuesto()">Calcular</button>
+
+<p>TOTAL A PAGAR: <span id="total"></span></p>
+
+<script src="java.js"></script>
+    
+</body>
+</html>
